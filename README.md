@@ -1,1 +1,6 @@
-# w261_Delay_Prediction
+# Predicting Flight Delays with Enhanced Data Analysis
+* Nathan Chiu, Dominic Lim, Raul Merino, Javier Rondon
+
+Commercial flight delays are a common costly issue. Leveraging data from the Bureau of Transportation Statistics and the National Oceanic and Atmospheric Administration, our team devised a method to forecast U.S. domestic flight delays two hours prior to departure.
+
+Post a comprehensive Exploratory Data Analysis, we integrated datasets, and crafted features highlighting flight network relations. A standout feature was the 'previous flight delay'—indicating if a flight with an identical tail number faced a delay earlier. We trained five models: Decision Trees, Random Forests, Gradient Boosted Trees, Multilayer Perceptrons, and an ensemble model. Using the F2 metric for comparison, the ensemble model, acting on any single model's prediction, achieved an F2 score of 0.558—a significant improvement over our logistic regression baseline at 0.091. This improvement was attributed to our newly developed features, including 'previous flight delay' and graph analytics like pagerank.
